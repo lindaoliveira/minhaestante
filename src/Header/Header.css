@@ -1,0 +1,18 @@
+header {
+    background-color: rgb(21, 99, 99);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+#principal {
+    display: flex;
+}
+
+img {
+    width: 200px;
+}
+
+.leituras {
+    display: flex;
+}
