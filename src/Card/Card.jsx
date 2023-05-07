@@ -1,14 +1,16 @@
 import React from "react";
 import "./Card.css"
+import LivroAvaliado from "../LivroAvaliado/LivroAvaliado";
+import foto from "../books.png"
 
 function Card(props){
     return(
         <div id="card-conteudo">
                 <div id="imagem">
-                    <img src={props.imglivro} alt="imagem"  />
+                 <LivroAvaliado nota="3" capa= {foto}/>
                 </div>
                 <div id="texto">
-                    <h2>{props.titulo}</h2>
+                    <h3>{props.titulo}</h3>
                     <p>{props.texto}</p>
                 </div>
         </div>

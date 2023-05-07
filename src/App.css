@@ -15,20 +15,27 @@ main {
 #main-um {
     display: flex;
     flex-direction: column;
+    padding-left: 100px;
+    padding-top: 100px;
 
 }
 
 #main-dois {
     display: flex;
+    padding-inline-start: 100px;
 }
 
 .tituloh2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 footer {
     display: flex;
     justify-content: space-evenly;
 
+}
+
+a {
+    text-decoration: none;
 }
